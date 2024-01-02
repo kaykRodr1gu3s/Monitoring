@@ -2,7 +2,6 @@
 
 Monitoring é um repositório, que visa monitorar diversos sites: cert.br, past.fo e cveDetails.com. utilizando técnicas de Web-scrapping
 
-![Imagem do WhatsApp de 2023-10-27 à(s) 01 25 28_e574d6a6](https://github.com/kaykRodr1gu3s/Monitoring/assets/110197812/0a2741bf-ced8-4f6d-93b4-8f3f31361de4)
 
 ---
 
