@@ -1,12 +1,23 @@
 # Monitoring
 
-Monitoring é um repositório, que visa monitorar diversos sites: cert.br, past.fo e cveDetails.com. utilizando técnicas de Web-scrapping
-
+Monitoring is a repository that monitoring the sites: [Cert.br](https://stats.cert.br/), [cveDetails](https://www.cvedetails.com/cisa-known-exploited-vulnerabilities/kev-1.html?&order=1&trc=988&sha=7cc3a9bfde72b01401aa6778d4ddc1b96eb2776d) and [paste.fo](https://github.com/kaykRodr1gu3s/Monitoring/tree/main/paste.fo](https://paste.fo/recent)), using web scrapping technique.
 
 ---
 
-## Pré- requisitos
- será necessário algumas bibliotecas python: bs4, requests PyYaml
+## index
+1 - [Requirements](#Requirements)
+
+2- [How to use](#How-to-use)
+
+3 - [Saved files](#Saved-files)
+
+4 - [How to contribute](#How-to-contribute)
+
+## Requirements
+ It will be necessary to install some python libraries, they're : bs4, requests and PyYaml.
+
+
+ Use the code below to install the libraries.
 
  ```bash
 pip install bs4
@@ -15,31 +26,45 @@ pip install PyYaml
 ```
 
 
+---
 
+## How to use
 
-## Como usar
+To start monitoring execute the code, choice one of the option:  
 
-É muito simples de usar, basta apenas executar o qual código de qual site você deseja monitorar.
-
-* [Cert.br](https://github.com/kaykRodr1gu3s/Monitoring/tree/main/cert.br)
+* [Cert.br](https://github.com/kaykRodr1gu3s/Monitoring/tree/main/certBR)
 
 * [cveDetails](https://github.com/kaykRodr1gu3s/Monitoring/tree/main/cveDetails)
 
 * [paste.fo](https://github.com/kaykRodr1gu3s/Monitoring/tree/main/paste.fo)
 
----
 
-### Arquivos salvos
+All the monitoring will show the result as output in the terminal or will save the result in .csv or .yml file.
 
-No monitoramento do[Cert.br](https://github.com/kaykRodr1gu3s/Monitoring/tree/main/cert.br), os dados extraídos são salvos em .csv [exemplo](https://github.com/kaykRodr1gu3s/Monitoring/blob/main/cert.br/Honeypots/tcp-udp/tcp_ports.csv).
-
-No Script do [cveDetails](https://github.com/kaykRodr1gu3s/Monitoring/tree/main/cveDetails), os dados extrídos são salvos em .yaml [exemplo de um arquivo yaml](https://github.com/kaykRodr1gu3s/Monitoring/blob/main/cveDetails/cve_files/CVE-2023-5631.yaml).
-
-No código [paste.fo](https://github.com/kaykRodr1gu3s/Monitoring/tree/main/paste.fo), todos os dados extraídos são mostrado em seu terminal como output.
 
 
 ---
 
-## Como contribuir
+### Saved files
 
-Clone o repositório , efetue as suas mudanças , após isso efetue o Pull Request
+On [Cert.br](https://github.com/kaykRodr1gu3s/Monitoring/tree/main/cert.br) monitoring, the datas extracted will be saved in a .csv [example](https://github.com/kaykRodr1gu3s/Monitoring/blob/main/certBR/Honeypots/tcp-udp/udp_ports.csv).
+
+On [cveDetails](https://github.com/kaykRodr1gu3s/Monitoring/tree/main/cveDetails) monitoring, the datas extracted will be saved in a .yaml and .csv files [example of a .csv](https://github.com/kaykRodr1gu3s/Monitoring/blob/main/cveDetails/Csv%20datas/cvedetails.csv), [example of a .yaml]
+
+On [paste.fo](https://github.com/kaykRodr1gu3s/Monitoring/tree/main/paste.fo) monitoring, all the datas extrated, will be printed on the terminal as output.
+
+
+---
+
+## How to contribute 
+
+ 1. Fork the repository.
+ 2. Create a branch for your contribution: `git checkout -b feature-nova`.
+ 3. Make the desired changes and commit: `git commit -m "Add new functionality"`.
+ 4. Push to your branch: `git push origin new-feature`.
+ 5. Open a pull request.
+
+## Contact
+
+- Linkedin: [Kayk Rodrigues](https://www.linkedin.com/in/kayk-rodrigues-504a03273)
+- Telegram: [Kayk Rodrigues](https://t.me/kaykRodrigues)
